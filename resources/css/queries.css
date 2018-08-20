@@ -1,0 +1,197 @@
+/*
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) 
+@media (min-width: @screen-sm-min) { ... }
+
+ Medium devices (desktops, 992px and up) 
+@media (min-width: @screen-md-min) { ... }
+
+Large devices (large desktops, 1200px and up) 
+@media (min-width: @screen-lg-min) { ... }
+*/
+/*
+We occasionally expand on these media queries to include a max-width to limit CSS to a narrower set of devices.
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
+*/
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+body {font-size:1.7em;font-weight: 400;}
+ .navbar-header img {    width:50px;}
+h1 {width:100%;text-align: center;}
+#hero {padding-top: 60%;}
+#hero h3 {font-size:1.4em; width:100%;}
+#hero .btn {width:35%;font-size: 1.3em;margin-left: 8%;}
+p {font-size: 1.1em;}
+h2{font-size: 1.9em;}
+h3{font-size: 1.5em;}
+    h4{font-size: 1.4em;font-weight: 300;}
+.icon-big {font-size: 1.5em;}
+    .icon-small{font-size: 1.3em;}
+    .img-thumbnail {width:100%;}
+    .gallery .thumbnail {width: 100%;}
+    .price-box{width: 100%; margin-left:0px;}
+	.price-box div { padding: 10px;}
+	.price span {font-size:.5em;font-weight: 100;}
+	.price-box li{ font-size:1em; padding: 5px;}
+    ul li,ol li {font-size: 1em;}
+    footer {padding: 30px 50px;}
+    #copyright p{margin-top: 20px;}
+    footer p, footer ul{font-size: .8em;}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+body {font-size:1.7em;}
+.navbar-header img {    width:50px;}
+section{padding: 30px 0 30px 0;}
+.navbar-text {font-size: .9em;}
+#hero {padding-top: 60%;}
+#hero h3 {font-size:1.4em; width:100%;}
+#hero .btn {width:35%;font-size: 1.2em;margin-left: 8%;}
+.icon-big {font-size: 1.3em;}
+    .price-box{width: 100%; margin-left:0px;}
+	.price-box div { padding: 10px;}
+	.price span {font-size:.5em;font-weight: 100;}
+	.price-box li{ font-size:1em; padding: 5px;}
+    ol li {font-size: 1em;}
+    ul li{font-size: 1em;}
+    footer {padding: 30px 50px;}
+    #copyright p{margin-top: 20px;}
+    footer p, footer ul{font-size: .7em;}
+    
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+body {font-size:1.3em;}
+.navbar-header img {    width:50px;}
+.navbar-text {font-size:.8em;}
+section{padding: 30px 0 30px 0;}
+#hero h3 {font-size:1.3em; width:80%;margin-left:0;}
+#hero .btn {width:25%;font-size: 1.1em;margin-left: 8%;padding: 5px;}
+ .about-us div {width:95%; margin-left:2.5%;}
+ .about-para {width: 85%;}
+   p {font-size: 1.2em;}
+    h2{font-size: 1.9em;}
+    h3{font-size: 1.5em;}
+    h4{font-size: 1.4em;font-weight: 300;}
+     .icon-big {font-size: 1.2em;}
+    .img-thumbnail {width:80%; margin-left:10%;}
+    .gallery .thumbnail {width: 100%;}
+    .price-box{width: 100%;}
+	.price-box div { padding: 12px;}
+	.price-box li{ font-size:1.1em; padding: 0;}
+    ol li {font-size: 1.3em;}
+    ul li{font-size: 1.2em;}
+    footer {padding: 30px 50px;}
+    #copyright p{margin-top: 20px;}
+    footer ul {font-size: .7em;}
+    footer p{font-size: .8em;}
+    
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+ body {font-size:1.3em;}
+ section{padding: 30px 0 30px 0;}
+#hero h3 {font-size:1.3em; width:75%;margin-left:0;}
+#hero .btn {width:25%;font-size: 1.1em;margin-left: 5%;padding: 5px;}
+    .about-us div {width:95%; margin-left:2.5%;}
+ .about-para {width: 80%;}
+   p {font-size: 1.2em;}
+    h3{font-size: 1.5em;}
+    h4{font-size: 1.4em;font-weight: 300;}
+     .icon-big {font-size: 1em;}
+    .img-thumbnail {width:40%; margin-left: 30%;}
+    .gallery .thumbnail {width: 80%;margin-left: 10%;}
+    .price-box{margin: 0 auto 15px;width: 40%;}
+    ol li {font-size: 1.3em;}
+    ul li{font-size: 1.2em;}
+    footer {padding: 30px 50px;}
+    #copyright p{margin-top: 20px;}
+    footer ul {font-size: .7em;}
+    footer p{font-size: .8em;}
+ 
+ }
+/* Landscape phones iphone6+ */
+@media (max-width: 736px){
+	 body {font-size:1.3em;}
+    #hero {padding-top: 40%;}
+	 #hero h3 {font-size:1.3em; width:80%;margin-left:0;}
+	 #hero .btn {width:25%;font-size: 1.2em;margin-left: 8%;}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    body {font-size: 1em;}
+    section{padding: 30px 0 30px 0;}
+    #hero .btn {font-size: 1.2em;margin-right: 15px;}
+    .about-para {width: 85%;}
+    h2{font-size: 1.9em;}
+    h3{font-size: 1.5em;}
+    p {font-size: 1.2em;}
+    .icon-big {font-size: 1em;}
+    .img-thumbnail {width:50%; margin-left: 25%;}
+    .gallery .thumbnail {width: 80%;
+    margin-left: 10%;}
+    .price-box{margin: 0 auto 15px;width: 60%;}
+    ol li {font-size: 1.3em;}
+    ul li{font-size: 1.2em;}
+    footer {padding: 15px;}
+    #copyright p{margin-top: 10px;}
+    footer p {font-size: 1.1em;}
+}
+/* Portrait iphone 6+ */
+@media (max-width: 414px){
+	body {font-size: 1em;}
+    section{padding: 30px 0 30px 0;}
+	h1 {width:100%;text-align:center;}
+	 #hero h3 {font-size:1.3em; width:100%;margin-left:0;padding:5px;}
+	 #hero {padding-top: 80%;margin-left:10%;}
+    #hero .btn {width:35%;font-size: 1em;margin-left: 1%;padding:1px;}
+    .about-para {width: 85%;}
+    h2{font-size: 1.9em;}
+    h3{font-size: 1.4em;}
+	h4{font-size: 1.2em;}
+    p {font-size: 1.2em;}
+    .icon-big {font-size: 1em;}
+    .img-thumbnail {width:60%; margin-left: 20%;}
+    .gallery .thumbnail {width:80%;margin-left: 10%;}
+    .price-box{margin: 0 auto 15px;width: 60%;}
+    ol li {font-size: 1.3em;}
+    ul li{font-size: 1.2em;}
+    footer {padding: 15px;}
+    #copyright p{margin-top: 10px;}
+    footer p {font-size: 1.1em;}
+}
+/* smaller phones*/
+@media (min-width: 320px) and (max-width: 413px) {
+	body {font-size: 1em;}
+    section{padding: 30px 0 30px 0;}
+	h1 {width:100%;text-align:center;}
+	 #hero h3 {font-size:1.3em; width:100%;margin-left:0;padding:5px;}
+	 #hero {padding-top: 80%;margin-left:10%;}
+    #hero .btn {width:44%;display:block;margin-top:10px;margin-left:20%;}
+    .about-para {width: 100%;}
+    h2{font-size: 1.9em;}
+    h3{font-size: 1.4em;}
+	h4{font-size: 1.2em;}
+    p {font-size: 1em;}
+    .icon-big {font-size:1em;}
+    .img-thumbnail {width:80%; margin-left:10%;}
+    .gallery .thumbnail {width: 80%;margin-left: 10%;}
+    .price-box{margin: 0 auto 15px;width:80%;}
+    ol li {font-size: 1em;}
+    ul li{font-size: 1em;}
+    footer {padding: 15px;}
+    #copyright p{margin-top: 10px;}
+    footer p {font-size: 1.1em;}
+    footer ul {font-size: 1.1em; margin-left:-25%; width: 100%;}
+    footer .credit{width: 100%; margin-left: -25%;}
+}
+
